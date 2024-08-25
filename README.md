@@ -1,7 +1,7 @@
-### A Speaker Diarization pipeline
+### A Speaker Diarization pipeline 
 <p align="center"><img src="info/vbx_without_overlap.png" alt="Illustration of pipeline." width="1200"/></p>
 
-
+`NOTE` : `Currently this pipeline can't proccess overlapped speech`
 # Methods
 
 ## `pyannote_vad(token, path, wav_path)`
@@ -37,8 +37,6 @@ F. Landini, J. Profant, M. Diez, L. Burget: [Bayesian HMM clustering of x-vector
 
 If you are interested in the original version of VBx (prepared for the Second DIHARD Challenge), please refer to the [corresponding branch](https://github.com/BUTSpeechFIT/VBx/tree/v1.0_DIHARDII).\
 If you are interested in the VBx recipe prepared for the track 4 of VoxSRC-20 Challenge (on VoxConverse), please refer to the [corresponding branch](https://github.com/BUTSpeechFIT/VBx/tree/v1.1_VoxConverse2020).
-
-
 
 
 ## Citations
