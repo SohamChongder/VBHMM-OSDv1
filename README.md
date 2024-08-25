@@ -1,4 +1,5 @@
 ### A Speaker Diarization pipeline
+<p align="center"><img src="info/vbx_without_overlap.png" alt="Illustration of pipeline." width="1200"/></p>
 
 
 # Methods
@@ -52,5 +53,12 @@ F. Landini, J. Profant, M. Diez, L. Burget: [Bayesian HMM clustering of x-vector
   pages={101254},
   year={2022},
   publisher={Elsevier}
+}
+
+@inproceedings{Bredin23,
+  author={Hervé Bredin},
+  title={{pyannote.audio 2.1 speaker diarization pipeline: principle, benchmark, and recipe}},
+  year=2023,
+  booktitle={Proc. INTERSPEECH 2023},
 }
 ```
