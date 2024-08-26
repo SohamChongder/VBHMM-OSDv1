@@ -1,7 +1,15 @@
-### A Speaker Diarization pipeline 
-<p align="center"><img src="info/vbx_without_overlap.png" alt="Illustration of pipeline." width="1200"/></p>
+## A Speaker Diarization pipeline 
+<p align="center"><img src="info/vbx_without_overlap.png" alt="Illustration of pipeline." width="500"/></p>
 
+
+### INSTRUCTIONS FOR INFERENCING
+```
+- pip install -r requirements.txt
+- cd VBx
+- python predict.py --in-wav-path "YOUR_AUDIO_WAV_FILE_PATH"
+```
 `NOTE` : `Currently this pipeline can't proccess overlapped speech`
+
 # Methods
 
 ## `pyannote_vad(token, path, wav_path)`
