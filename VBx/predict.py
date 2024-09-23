@@ -279,7 +279,7 @@ def vbhmm_resegmentation(filename,config):
                     pi=qinit.shape[1], gamma=qinit,
                     maxIters=40, epsilon=1e-6,
                     loopProb=config['loopP'], Fa=config['Fa'], Fb=config['Fb'])
-
+                np.save("../example/gamma_"+file_name+".npy",q) #  timeframe * Speaker posterior probabilities 
                 labels1st = np.argsort(-q, axis=1)[:, 0]
                 if q.shape[1] > 1:
                     labels2nd = np.argsort(-q, axis=1)[:, 1]
