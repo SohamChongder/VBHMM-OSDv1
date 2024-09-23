@@ -46,6 +46,7 @@ warnings.filterwarnings("ignore")
 from pyannote.audio import Model
 from pyannote.audio.pipelines import VoiceActivityDetection
 import os
+from overlap_utils import *
 
 
 def pyannote_vad(token,path,wav_path):
@@ -338,3 +339,6 @@ if __name__ == '__main__':
     
     predict(args,wav_path,vad_path,config)
     vbhmm_resegmentation(filename,config)
+    #meeting_id=filename.split(".")[0]
+    #labels_matching(pyannote_segementation_token,"/Career/NTU/VBx/example/audios/16k","/Career/NTU/VBx/example/seg",meeting_id,"/Career/NTU/VBx/exp") 
+
