@@ -1,6 +1,6 @@
 ## A Speaker Diarization pipeline
 
-<p align="center"><img src="info/vbx_without_overlap.png" alt="Illustration of pipeline." width="500"/></p>
+<p align="center"><img src="info/VBHMM-OSDv1.png" alt="Illustration of pipeline." width="500"/></p>
 
 ### INSTRUCTIONS FOR INFERENCING
 
