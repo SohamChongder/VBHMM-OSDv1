@@ -37,16 +37,16 @@ This file performs resegmentation of the generated x-vectors as per VB-HMM mathe
 
 This file performs overlap speech detection on the audio files. It saves the overlap regions in a `.rttm` file inside `exp/overlap`. It also postprocesses the generated rttm to incorporate overlap regions and saves the updated `.rttm` file in `exp/rttm_osd`
 
+## `predict.py`
+
+This file incorporates the entire pipeline
+
 **Input Arguments:**
 
 - **`token`**: Hugging Face token for accessing the pyannote segmentation 3.0 repository. Note that you need to request access to the VAD model API, as it is gated. [Request access here](https://huggingface.co/pyannote/segmentation-3.0).
 - **`path`**: The path where the VAD output file will be saved in `.lab` format.
 - **`wav_path`**: The path to the file or folder containing `.wav` files to be processed.
 - **`config`**: A dictionary containing custom-defined parameters.
-
-## `predict.py`
-
-This file incorporates the entire pipeline
 
 ---
 
