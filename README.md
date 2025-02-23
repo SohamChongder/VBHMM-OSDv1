@@ -5,7 +5,7 @@
 ### INSTRUCTIONS FOR INFERENCING
 
 ```
-- pip install -r requirements_pip.txt   conda create --name <env> --file <this file>
+- pip install -r requirements_pip.txt  
 - cd VBx
 - python predict.py --in-wav-path "YOUR_AUDIO_WAV_FILE_PATH"
 ```
@@ -13,7 +13,7 @@
 OR for conda environment
 
 ```
-- conda create --name vbx_env --file <this file>
+- conda create --name vbx_env --file requirements_conda.txt
 - conda activate vbx_env
 - cd VBx
 - python predict.py --in-wav-path "YOUR_AUDIO_WAV_FILE_PATH"
